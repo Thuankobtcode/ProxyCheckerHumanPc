@@ -5,7 +5,7 @@
 ![Made-in-Vietnam](https://img.shields.io/badge/Made%20in-Vietnam-red.svg)
 
 > A fast and smart proxy checker that supports HTTP, SOCKS4, SOCKS5, and filters proxies by country (Vietnam by default 🇻🇳).  
-> Developed by: **@Luckystopdz** | Telegram: [@Humanpv](https://t.me/Humanpv)
+> Developed by: **@thuannodejs** | Telegram: [@Humanpc](https://t.me/Humanpcc)
 
 ---
 
@@ -22,40 +22,25 @@
 
 ## 📦 Installation
 
-```bash
-pip install requests colorama
-⚙️ Usage
-bash
-Copy
-Edit
-python proxycheckervn.py --file proxies.txt --t 50
+### ⚙️ Usage
+### python proxycheckervn.py --file proxies.txt --t 50
+
 --file: Input file containing proxy list (ip:port format, one per line)
 
 --t: Number of threads (default: 50)
 
-📁 Output Files
+## 📁 Output Files
 good_proxy_http.txt — Working HTTP proxies
 
 good_proxy_socks4.txt — Working SOCKS4 proxies
 
 good_proxy_socks5.txt — Working SOCKS5 proxies
 
-VietNam_Proxies.txt — Proxies from Vietnam
+VietNam_Proxies.txt — Pr
+
+Uploading Code_awsq027aKb.mp4…
+
+oxies from Vietnam
 
 💡 Tip: You can modify the country filter to collect proxies from other countries by changing the country code in the script (e.g., "VN" → "US", "DE", "FR", etc.)
 
-📸 Example Output
-text
-Copy
-Edit
-[15:30:12] [LIVE] - 45.77.123.12:8080 | United States | 145ms
-[15:30:13] [DIE]  - 123.45.67.89:1080
-[15:30:14] [LIVE] - 113.22.11.88:8080 | Vietnam | 122ms
-💬 Contact
-Telegram Channel: @Humanpv
-
-Developer: @Luckystopdz
-
-yaml
-Copy
-Edit
