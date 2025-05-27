@@ -13,10 +13,6 @@
 
 ---
 
-https://github.com/user-attachments/assets/c75a819b-bc33-4dc2-9af2-ec555ccf640c
-
-
-
 ## ✨ Features
 
 - ✅ Check if proxies are alive (LIVE/DIE)
@@ -70,11 +66,14 @@ python proxycheckervn.py --file proxies.txt --t 50
 
 ## 💬 Contact
 
-* Telegram Channel: [@Humanpv](https://t.me/Humanpv)
-* Developer: [@Luckystopdz](https://t.me/Luckystopdz)
+* Telegram Channel: [@Humanpv]([https://t.me/[Humanpv](https://t.me/humanpcc)](https://t.me/humanpcc))
+* Developer: [@Luckystopdz](https://t.me/thuannodejs)
 
 ---
 
 ```
 
 ---
+
+✅ Nếu bạn muốn mình tạo luôn file `README.md` để bạn tải trực tiếp hoặc đẩy lên GitHub, mình có thể tạo ngay. Muốn không?
+```
