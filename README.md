@@ -1,27 +1,34 @@
 
-# 🇻🇳 ProxyCheckerVN — Proxy Checker by Luckystop
+---
 
-![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+````markdown
+# 🇻🇳 ProxyCheckerVN — Fast Proxy Checker by Luckystop
+
 ![Python](https://img.shields.io/badge/Python-3.6%2B-yellow.svg)
+![Multi-Threaded](https://img.shields.io/badge/Threads-Up%20to%2050-green.svg)
 ![Made-in-Vietnam](https://img.shields.io/badge/Made%20in-Vietnam-red.svg)
 
-> Công cụ kiểm tra proxy nhanh, hỗ trợ phân loại HTTP, SOCKS4, SOCKS5 và lọc IP Việt Nam 🇻🇳  
-> By: @Luckystopdz | Telegram: [@Humanpv](https://t.me/Humanpv)
+> A fast and smart proxy checker that supports HTTP, SOCKS4, SOCKS5, and filters proxies by country (Vietnam by default 🇻🇳).  
+> Developed by: @Luckystopdz | Telegram: [@Humanpv](https://t.me/Humanpv)
 
 ---
 
-## ✨ Tính năng nổi bật
+https://github.com/user-attachments/assets/c75a819b-bc33-4dc2-9af2-ec555ccf640c
 
-- ✅ Kiểm tra proxy hoạt động (LIVE/DIE)
-- 🔍 Phân loại tự động: HTTP, SOCKS4, SOCKS5
-- 🇻🇳 Lọc proxy có IP từ Việt Nam
-- 🚀 Chạy đa luồng cực nhanh (multi-threaded)
-- 🎨 Màu sắc hiển thị đẹp, dễ theo dõi
-- 💾 Lưu kết quả ra file theo từng loại
+
+
+## ✨ Features
+
+- ✅ Check if proxies are alive (LIVE/DIE)
+- 🔍 Auto detect and classify: HTTP, SOCKS4, SOCKS5
+- 🌍 Country-based filter (e.g., Vietnam 🇻🇳)
+- ⚡ Multi-threaded for maximum performance
+- 🎨 Colored console output
+- 💾 Saves results to categorized output files
 
 ---
 
-## 📦 Cài đặt
+## 📦 Installation
 
 ```bash
 pip install requests colorama
@@ -29,27 +36,29 @@ pip install requests colorama
 
 ---
 
-## ⚙️ Cách sử dụng
+## ⚙️ Usage
 
 ```bash
 python proxycheckervn.py --file proxies.txt --t 50
 ```
 
-* `--file`: Tên file chứa danh sách proxy (mỗi dòng 1 proxy dạng `ip:port`)
-* `--t`: Số luồng (thread) kiểm tra song song (mặc định 50)
+* `--file`: Input file containing proxy list (`ip:port` format, one per line)
+* `--t`: Number of threads (default: 50)
 
 ---
 
-## 📁 Kết quả xuất ra
+## 📁 Output Files
 
-* `good_proxy_http.txt` — Các proxy HTTP hoạt động
-* `good_proxy_socks4.txt` — Các proxy SOCKS4 hoạt động
-* `good_proxy_socks5.txt` — Các proxy SOCKS5 hoạt động
-* `VietNam_Proxies.txt` — Proxy có IP tại Việt Nam
+* `good_proxy_http.txt` — Working HTTP proxies
+* `good_proxy_socks4.txt` — Working SOCKS4 proxies
+* `good_proxy_socks5.txt` — Working SOCKS5 proxies
+* `VietNam_Proxies.txt` — Proxies from Vietnam
+
+> 💡 **Tip:** You can modify the country filter to collect proxies from other countries by changing the country code in the script (e.g., "VN" → "US", "DE", "FR", etc.)
 
 ---
 
-## 📸 Giao diện CLI
+## 📸 Example Output
 
 ```text
 [15:30:12] [LIVE] - 45.77.123.12:8080 | United States | 145ms
@@ -59,25 +68,13 @@ python proxycheckervn.py --file proxies.txt --t 50
 
 ---
 
-## 📜 Giấy phép
+## 💬 Contact
 
-Phát hành dưới giấy phép **Apache License 2.0**
-Xem thêm tại: [LICENSE](https://www.apache.org/licenses/LICENSE-2.0)
-
----
-
-## 💬 Liên hệ
-
-* Telegram: [@Humanpv](https://t.me/Humanpv)
-* Developer: [Luckystopdz](https://t.me/Luckystopdz)
+* Telegram Channel: [@Humanpv](https://t.me/Humanpv)
+* Developer: [@Luckystopdz](https://t.me/Luckystopdz)
 
 ---
 
 ```
 
 ---
-
-📌 Gợi ý: bạn có thể đổi tên file script thành `proxycheckervn.py` để đồng nhất repo và file.
-
-Bạn muốn mình xuất luôn file `README.md` để bạn tải không?
-```
